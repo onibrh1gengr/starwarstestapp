@@ -13,7 +13,6 @@ function App() {
           <Route path='details' element={<DetailsComponent />} />
         </Route>
       </Routes>
-
     </div>
 );
 }

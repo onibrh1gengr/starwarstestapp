@@ -2,7 +2,7 @@ import React from 'react'
 
 function MasterComponent() {
   return (
-    <div>MasterComponent</div>
+    <div className='card-container '></div>
   )
 }
 
