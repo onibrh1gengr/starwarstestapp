@@ -1,0 +1,29 @@
+.film-card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.film-card{
+    max-width: 200px;
+    max-height: 400px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.film-desc{
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    padding: 10px;
+    font-size: 12px;
+    margin: 0;
+    background: white;
+    resize: horizontal;
+}
